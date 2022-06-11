@@ -25,7 +25,7 @@ client.on('ready',async()=>{
 
   setTimeout(async()=>{
     await new testSchema({
-        message:"Hello world!"
+        message:"Hello world! yo"
     }).save()
   },1000)
 
